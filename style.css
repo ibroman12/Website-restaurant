@@ -1,0 +1,563 @@
+/*this is about page */
+
+  body{
+    display:  ;
+   }
+    .ontainer{
+     background: red ;
+     height: 200px ;
+     display: flex;
+     color: white;
+     
+    }
+    h2{
+     font-size: 40px;
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: -4px;
+     color: orange ;
+    }
+    .seem{
+     color: orange;
+     font-size: 40px;
+     text-align: center;
+     position: relative;
+     top: -50px;
+     left: 50px;
+     text-decoration: 1px underline wavy#EE0C8F;
+    }
+    .col-2{
+     display: flex;
+     padding: 16px ;
+     color: white ;
+     background: transparent;
+     flex-wrap: wrap;
+     width: 990px ;
+     height: 100px ;
+     margin-top: -10px;
+     box-shadow: 2px 2px 40px -10px black;
+    }
+    .afa,a{
+     position: relative;
+     left: 60px;
+     padding: 15px ;
+     top: -1px;
+     font-size: 37px;
+     text-decoration: none;
+     color: black;
+    }
+    a:active{
+     color: green;
+     background: #FEF6FE;
+     border-radius: 20px;
+    }
+    contact{
+     background: #9CA3F1;
+     margin-left: 50px;
+     transition: all 0.5s ease-in-out;
+     padding: 20px ;
+     border: 1px solid black ;
+     font-weight: bold;
+     border-radius: 10px ;
+     flex-wrap: wrap;
+    }
+    .contact:hover{
+     background: #9196C5;
+     border: none;
+     border-radius: 20px ;
+    }
+    .col-3{
+     background: linear-gradient(#E300FF,#AA64B3);
+     min-height: 40vh;
+     width: 105%;
+     flex-wrap: wrap;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 40px;
+    }
+    h1{
+     background: white;
+     border-radius: 10px;
+    }
+    .col-4{
+     flex-basis: 22%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 106%;
+    }
+    .img1{
+     border: none;
+     display: flex;
+     border-radius: 10px;
+     position: relative;
+     left: 50px;
+     width: 450px;
+     height: 450px;
+     box-shadow: 2px 2px 40px black;
+    }
+    .textname{
+     display: flex;
+     border-radius: 10px;
+     width: 450px;
+     height: 450px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     line-height: 1.2em;
+     box-shadow: 2px 2px 40px -10px black;
+    }
+    span{
+     text-align: center;
+    }
+    .img9{
+     width: 98%;
+     display: flex;
+     margin-top: 90px;
+     border-radius: 10px;
+     height: 32rem;
+     flex-wrap: wrap;
+     margin-left: 40px;
+     box-shadow: 2px 2px 40px -10px  black;
+    }
+   {
+     background: #715F76;
+     height: 400px;
+    }
+    .foot{
+     width: 69rem;
+     background: #D7CEF2;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 50px;
+     height: 270px;
+    }
+    .fowter{
+     width: 300px;
+     background: none;
+     color: orange;
+     font-size: 35px;
+     font-weight: 700;
+     position: relative;
+     left: -19rem;
+     top: 100px;
+    }
+    .display{
+     display: flex;
+     margin-left: 280px;
+     justify-content: space-between;
+     margin-top: -70px;
+    }
+    .face,ul li{
+     background: none;
+     list-style-type: none;
+     display: flex;
+     font-size: 22px;
+     margin-left: 100px;
+     line-height: 2em;
+     flex-wrap: wrap;
+    }
+    .face2{
+     font-size: 22px;
+    }
+    section{
+     background: ;
+     font-size: 26px;
+     line-height: 1em;
+     font-weight: inherit;
+    flex-wrap: wrap;
+    }
+    .mogo{
+     border-bottom: 1px solid orange;
+    }
+    .mow:hover{
+     background: #FFD204;
+     border-radius: 10px;
+    }
+    
+    
+    @media (max-width: 770px ){
+     .col-2{
+      width: 467px;
+      padding: 0;
+      position: relative;
+      left: 1px;
+     }
+     .afa,a{
+      font-size: 20px;
+      position: relative;
+      left: 0;
+     }
+     h2{
+      display: flex;
+      font-size: 25px;
+      position: relative;
+      top: 10px;
+     }
+     .foot{
+      height: 600px;
+     } /*intaas wixi ka hooseye oo copy gareyso*/
+     .img1{
+      width: 400px;
+      height: 400px;
+      position: relative;
+      left: 100px;
+     }
+     .col-3{
+      font-size: 17px;
+      width: 466px;
+      margin: 0;
+     }
+     
+     .cold{
+      margin-left:-100px;
+      width: 350px;
+     }
+     .textname{
+      box-sizing: border-box;
+      background: transparent;
+      height: 25rem;
+      width: 400px;
+      position: relative;
+      left: 110px;
+      top: 50px ;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     .seem{
+      position: relative;
+      left: 0;
+     }
+     .img9{
+      position: relative;
+      left: -40px;
+      width: 420px;
+     }
+     .col-4{
+      width: 470px;
+      margin: 0;
+      position: relative;
+     }
+     .img1{
+      position: relative;
+      left: 100px;
+     }
+     .fowter{
+      display: none;
+     }
+     .display{
+      display: block;
+      position: relative;
+      left: 0;
+      margin-left: 0;
+     }
+     .face,ul li{
+     margin-left: -25px;
+     }
+     .foot{
+      background:  #D7CEF2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     .col-0{
+       margin-top: -26rem;
+     }
+     
+    }
+    
+
+
+
+
+
+
+    /*this is home style of hom page */
+    
+    
+    .iibbo{
+     background: whitesmoke;
+     min-height: 47vh;
+    }
+    .iibo{
+     background: ;
+    }
+    .iib{
+     background: blue;
+     height: 450px;
+     width: 455px;
+     position: relative;
+     border-radius: 20px;
+     margin: 12px;
+     left: 40px;
+     top: 100px;
+     margin-top: 20px;
+     justify-content: space-between;
+     box-shadow: 2px 2px 40px  -10px black;
+    }
+    .stone{
+     background: linear-gradient(#77DA8C,#BD77DA);
+     font-size: 50px;
+     padding: 15px 10px;
+     position: relative;
+     left: 170px;
+     top: 70px;
+     border-radius: 20px;
+     color: white;
+    }
+    .stone::before{
+     content: 'successfully🍉';
+     position: absolute;
+     background: #00FF95;
+     height: 90px ;
+     width: 617px;
+     left: 0;
+     border-radius: 20px;
+     top: 0;
+     text-align: center;
+     letter-spacing: 4px;
+     transition: all 0.5s;
+    }
+    .hil7{
+     background: linear-gradient(#A0FABE,#A6A0FA);
+     width: 102%;
+     z-index: 1;
+     position: relative;
+     height: 75rem;
+     left: 20px;
+     top: 100px;
+    }
+    .hil{
+     height: 450px;
+     width: 450px ;
+     position: relative;
+     left: 30px ;
+     margin: 10px;
+     top: 50px;
+     box-shadow: 2px 2px 40px -10px #2A2D50;
+     border-radius: 20px;
+    }
+    .ston{
+     font-size: 50px;
+     position: relative;
+     left: 50px ;
+     top: 20px ;
+      background: linear-gradient(#77DA8C,#BD77DA);
+      color: white;
+      padding: 15px 10px;
+      border-radius: 20px;
+    }
+    .ston::before{
+     content: 'I need meat and drink of milk ○';
+     position: absolute;
+     height: 90px;
+     background: #00FF95;
+     width: 916px;
+     left: 0;
+     top: 0;
+     border-radius: 20px;
+     text-align: center;
+     transition: all 0.5s;
+    }
+    /*and this is responsive media queries of home*/
+    
+    
+    
+    
+    @media (max-width: 770px){
+     .iibbo{
+      width: 300px;
+      height: 400px;
+     }
+     .iib{
+      height: 300px;
+      width: 300px;
+      z-index: 1;
+      position: relative;
+     }
+     .hil{
+      width: 300px;
+      height: 300px;
+     }
+     .col-3{
+      margin-top: 400px;
+     }
+     .stone{
+      font-size: 20px;
+      position: relative;
+      left: 60px;
+      width: 400px;
+      height: 90px;
+     }
+     .stone::before{
+      content: 'successfully🍉';
+      position: absolute;
+      font-size: 25px;
+      height: 50px;
+      width: 260px;
+      left: 0px;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -ms-align-items: center;
+      font-weight: 800;
+     }
+     .hil7{
+      width: 400px;
+      background: none;
+      z-index: -1;
+      margin-top: 65rem;
+     }
+     .ston{
+      font-size: 20px;
+      width: 300px;
+      position: relative;
+      left: -10px;
+     }
+     .ston::before{
+      position: absolute;
+      width: 378px;
+      font-size: 20px;
+      height: 46px;
+      left: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   /*css of contact with the page */
+   
+   
+       .inputt{
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     flex-basis: 20%;
+     height: 110rem;
+     width: 105%;
+     margin-left: 10px;
+    }
+    .box1{
+     background: transparent;
+     height: 70%;
+     width: 45rem;
+     position: relative;
+     left: 10px ;
+     display: inline-block;
+     align-items: center ;
+     justify-content: space-between ;
+     text-align: center ;
+     border-radius: 20px ;
+     border: 2px solid rgba(0,0,0,0.30);
+     box-shadow: 2px 2px 1px #01E1E5, 
+                 -2px -2px 1px dodgerblue ;
+    }
+    .h11{
+     font-size: 5.4em;
+     box-shadow: 0px 3px 0px #01E1E5;
+     margin-top: -2px;
+     color: orange;
+    }
+    #ip,#button{
+     height: 100px;
+     width: 40rem;
+     justify-content: space-between;
+     margin: 10px;
+     font-size: 50px;
+     border-radius: 15px;
+     outline: none;
+     flex-wrap: wrap;
+    }
+    #ip, #button{
+     border: 3px solid #00FF8F;
+    }
+    #button:hover{
+     background: #00FF8F;
+     color: white;
+     border: 1px solid #00FF8F;
+     font-size: 4.3em;
+     border-radius: 50px;
+     transition: all 2.5s;
+    }
+    .cool{
+     background: #D7CEF2;
+     position: relative;
+     left: -10px ;
+     width: 106%;
+     height: 270px;
+     top: 100px;
+     justify-content: space-evenly;
+     display: flex;
+     flex-wrap: wrap;
+    }
+    .aap{
+     color: #DE02FF;
+     font-size: 50px;
+     position: relative;
+     left: 0.5rem;
+     flex-wrap: wrap;
+    }
+    .aap:hover{
+     background: none;
+     height: 100px;
+    }
+    .ipow{
+     background: #FFB502;
+     border-radius: 50px ;
+     font-size: 40px;
+    }
+   
+   
+   /*and this is responsive media queries contact */
+    @media (max-width: 770px ){
+     .box1{
+      width: 24rem;
+      height: 50rem;
+      position: relative;
+      top: -2rem;
+      left: -10px;
+     }
+     #ip,#button{
+      font-size: 20px;
+      height: 50px;
+      width: 22rem;
+     }
+     #button:hover{
+      font-size: 25px;
+     }
+     .inputt{
+      height: 54rem;
+     }
+     .aap{
+      font-size: 30px;
+      width: 120px;
+      display: inline-flex;
+     }
+     .ipow{
+      height: 40px;
+      width: 40px;
+     }
+     .cool{
+      position: relative;
+      top: 60px;
+      width: 120%;
+     }
+    }
+   
+     
